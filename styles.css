@@ -1,0 +1,118 @@
+body{
+    background-color: #f9fafc;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
+  }
+  
+  #name{
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .nav{
+    margin-top: 10px;
+  }
+  
+  a{
+    color: #69696a;
+    text-decoration: none;
+  }
+  
+  button{
+    background-color: #000;
+    color: #FFF;
+    border-radius: 25px;
+    width:100%;
+    padding: 13px 0 13px 0;
+    margin-top: 10px;
+  }
+  
+  h1{
+    color: #000;
+    margin-top: 40px;
+  }
+  
+  p{
+    border-left: 3px solid #69696a;
+    color: #69696a;
+    padding-left: 15px;
+  }
+  
+  /*Write a media query using min-width syntax to change styles at 768px.*/
+  @media only screen and (min-width: 768px){
+    /*.flex-container{
+      display:flex;
+      flex-flow: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+*/
+
+    nav{
+      display: flex;
+      align-items: baseline;
+      flex-flow: wrap;
+    }
+    a{
+      padding-left: 1em;
+    }
+
+    #name{
+      flex-grow: 50;
+    }
+
+    #hireUs{
+      display: flex;
+      justify-content: flex-end;
+      width: auto;
+      padding: 13px 1em;
+      margin-left: 1em;
+    }
+
+    p{
+      width: 50%;
+    }
+
+    #scrollDown{
+      position: absolute;
+      left: 50%;
+      width: auto;
+      padding: 13px 1em;
+      bottom: 2em;
+    }
+
+    h1{
+      margin-top: 5em;
+    }
+
+    #Circle1{
+      height: 250px;
+      width: 250px;
+      background-color: rgba(247, 136, 167, 0.6);
+      border-radius: 50%;
+      position: absolute;
+      right: 100px;
+      top: 235px;
+    }
+
+    #Circle2{
+      height: 200px;
+      width: 200px;
+      background-color: rgba(247, 193, 162, 0.7);
+      border-radius: 50%;
+      position: absolute;
+      right: 25px;
+      top: 380px;
+      z-index: 1;
+    }
+
+    #Circle3{
+      height: 150px;
+      width: 150px;
+      background-color:  rgba(207, 130, 213, 0.6);
+      border-radius: 50%;
+      position: absolute;
+      right: 25px;
+      top: 275px;
+    }
+  }
