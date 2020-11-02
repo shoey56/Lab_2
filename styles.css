@@ -40,13 +40,7 @@ body{
   
   /*Write a media query using min-width syntax to change styles at 768px.*/
   @media only screen and (min-width: 768px){
-    /*.flex-container{
-      display:flex;
-      flex-flow: wrap;
-      align-items: baseline;
-      justify-content: space-between;
-    }
-*/
+
 
     nav{
       display: flex;
